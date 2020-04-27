@@ -19,10 +19,10 @@
 <section class="section">
     <div class="container">
         <h1 class="title">The Simpson Jokes</h1>
-        <p>Reload for another quote!</p>
 
         <div class="content" id="simpsonQuote">
         </div>
+        <button type="button" value="Recharger !" onclick="fetchSimpsonQuoteJSON();">New quote !</button>
     </div>
 
 </section>
